@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+
+char a[5] = "(***)";
+
+int hhh[1] = {a};
+printf("%d \n\n\n", hhh[0], "a"); //prints a number string instead of my image, but I couldn't get it to print withoout "%d" or with "(" being one of the array elements listed (like printf("(", "***", ")" from an array
+
+    printf("w/out array, temporary:\n");
+    printf("(");
+    printf("***");
+    printf(")");
+    
+    
+    
+    return 0;
+}
